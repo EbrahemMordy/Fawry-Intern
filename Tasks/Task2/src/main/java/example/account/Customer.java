@@ -1,0 +1,43 @@
+package example.account;
+
+
+public class Customer {
+
+    private String name;
+    private int balance;
+    private boolean creditAllowed;
+    private boolean vip;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+
+    public void setBalance(int balance) {
+        this.balance = balance;
+    }
+
+    public boolean isCreditAllowed() {
+        return creditAllowed;
+    }
+
+    public void setCreditAllowed(boolean creditAllowed) {
+        this.creditAllowed = creditAllowed;
+    }
+
+    public boolean isVip() {
+        return vip;
+    }
+
+    public void setVip(boolean vip) {
+        this.setCreditAllowed(true);
+        this.vip = vip;
+    }
+}
